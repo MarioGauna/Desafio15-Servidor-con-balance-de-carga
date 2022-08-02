@@ -24,18 +24,18 @@ Comprobamos la lista:
 
 ┬─[kirk6@DESKTOP-5S9A20K MINGW64 /d/Proyectos/Desafio15]
 ╰─>$ pm2 list
-┌─────┬──────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
-│ id  │ name             │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
-├─────┼──────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
-│ 0   │ cluster8082    │ default     │ 1.0.0   │ cluster │ 3364    │ 27s    │ 1    │ online    │ 0%       │ 70.0mb   │ kirk6  │ enabled  │
-│ 1   │ cluster8082    │ default     │ 1.0.0   │ cluster │ 13888    │ 27s    │ 1    │ online    │ 0%       │ 70.2mb   │ kirk6  │ enabled  │
-│ 2   │ cluster8083    │ default     │ 1.0.0   │ cluster │ 17392    │ 20s    │ 1    │ online    │ 0%       │ 69.5mb   │ kirk6  │ enabled  │
-│ 3   │ cluster8083    │ default     │ 1.0.0   │ cluster │ 8704    │ 20s    │ 1    │ online    │ 0%       │ 69.6mb   │ kirk6  │ enabled  │
-│ 4   │ cluster8084    │ default     │ 1.0.0   │ cluster │ 2308    │ 15s    │ 0    │ online    │ 0%       │ 70.6mb   │ kirk6  │ enabled  │
-│ 5   │ cluster8084    │ default     │ 1.0.0   │ cluster │ 16356    │ 15s    │ 0    │ online    │ 0%       │ 70.7mb   │ kirk6  │ enabled  │
-│ 6   │ cluster8085    │ default     │ 1.0.0   │ cluster │ 8416    │ 5s    │ 0    │ online    │ 0%       │ 70.5mb   │ kirk6  │ enabled  │
-│ 7   │ cluster8085    │ default     │ 1.0.0   │ cluster │ 12960    │ 5s    │ 0    │ online    │ 0%       │ 71.1mb   │ kirk6  │ enabled  │
-└─────┴──────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+┌─────┬────────────────┬────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬────────┬──────────┬──────────┬──────────┐
+│ id  │ name           │ namespace  │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu    │ mem      │ user     │ watching │
+├─────┼────────────────┼────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼────────┼──────────┼──────────┼──────────┤
+│ 0   │ cluster8082    │ default    │ 1.0.0   │ cluster │ 3364     │ 27s    │ 1    │ online    │ 0%     │ 70.0mb   │ kirk6    │ enabled  │
+│ 1   │ cluster8082    │ default    │ 1.0.0   │ cluster │ 13888    │ 27s    │ 1    │ online    │ 0%     │ 70.2mb   │ kirk6    │ enabled  │
+│ 2   │ cluster8083    │ default    │ 1.0.0   │ cluster │ 17392    │ 20s    │ 1    │ online    │ 0%     │ 69.5mb   │ kirk6    │ enabled  │
+│ 3   │ cluster8083    │ default    │ 1.0.0   │ cluster │ 8704     │ 20s    │ 1    │ online    │ 0%     │ 69.6mb   │ kirk6    │ enabled  │
+│ 4   │ cluster8084    │ default    │ 1.0.0   │ cluster │ 2308     │ 15s    │ 0    │ online    │ 0%     │ 70.6mb   │ kirk6    │ enabled  │
+│ 5   │ cluster8084    │ default    │ 1.0.0   │ cluster │ 16356    │ 15s    │ 0    │ online    │ 0%     │ 70.7mb   │ kirk6    │ enabled  │
+│ 6   │ cluster8085    │ default    │ 1.0.0   │ cluster │ 8416     │ 5s     │ 0    │ online    │ 0%     │ 70.5mb   │ kirk6    │ enabled  │
+│ 7   │ cluster8085    │ default    │ 1.0.0   │ cluster │ 12960    │ 5s     │ 0    │ online    │ 0%     │ 71.1mb   │ kirk6    │ enabled  │
+└─────┴────────────────┴────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴────────┴──────────┴──────────┴──────────┘
 
 ```
 
